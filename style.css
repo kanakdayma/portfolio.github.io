@@ -71,7 +71,7 @@ background-color: white;
   gap: 10px; /* Add spacing between photos */
   justify-content: center; /* Center photos horizontally */
   align-items: center; /* Align photos vertically if heights vary */
-  padding: 30px; /* Optional: Add padding around the gallery */
+  padding: 20px; /* Optional: Add padding around the gallery */
 }
 
 /* Individual photo styling */
