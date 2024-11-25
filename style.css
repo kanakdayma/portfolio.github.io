@@ -1,0 +1,123 @@
+html body {
+  height: 100%;
+  width: 100%;
+   overflow-x: hidden;s
+}
+
+.bgimage {
+  height: 100vh;
+  background: url(bgimage.JPG);
+ background-size: cover; /* Ensures the image covers the entire container */
+  background-repeat: no-repeat; /* Prevents tiling */
+  background-position: center; /* Centers the image */
+}
+
+
+.animate__animated {
+  font-size: 4.5rem;
+  color: white;
+
+}
+.animate__animated.animate__zoomInDown {
+  --animate-duration: 2s;
+}
+.hero_desc {
+  font-size: 2rem;
+  color: white;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+}
+.navbar{
+background-color: white;
+}
+
+.imageAboutPage {
+
+    width: 100%;
+  }
+
+#about{
+  background-color: #FFAAAA;
+
+}
+.img{
+   width: 100%;
+   transition: transform 0.5s ease;
+
+}
+
+.card:hover .servicesIcon {
+    color: #008000;
+}
+.servicesText:hover {
+    border: 1px solid #008000;
+}
+
+.img:hover {
+  transform: scale(1.2); /* Increase size by 20% */
+}
+
+/* Container to hold photos */
+.photo-gallery {
+  display: grid; /* Use grid layout */
+  grid-auto-flow: column; /* Arrange items in a single row */
+  gap: 10px; /* Add spacing between photos */
+  justify-content: center; /* Center photos horizontally */
+  align-items: center; /* Align photos vertically if heights vary */
+  padding: 30px; /* Optional: Add padding around the gallery */
+}
+
+/* Individual photo styling */
+.photo {
+  max-width: 100%;
+  height: auto;
+   }
+  .text-center{
+    padding: 20px;
+    size: 30px;
+  }
+
+#Experience{
+  background-color: #AA3939;
+
+}
+#services{
+   background-color: #D46A6A;
+
+}
+.para{
+  color: white;
+  font-size: 18px;
+   padding: 10px;
+
+}
+
+#about, #services, #portfolio, #contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
+#contact {
+    padding-bottom: 4rem;
+    background-color: #AA6C39;
+}
+.submit-btn {
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #45a049;
+}
+
+
